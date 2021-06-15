@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  margin: 40px auto;
+  padding: 10px;
+}
+h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 10px auto;
+  text-align: center;
+}
+input {
+  width: 100%;
+  padding: 2px;
+  margin: 10px auto;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }

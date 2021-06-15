@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h3>Personal information</h3>
+      <input type="text" placeholder="Full Name" id="name" />
+      <input type="text" placeholder="Phone Number" id="phone" />
+
+      <h3>Your Orders</h3>
+      <div>
+        <label for="">Oats Idli (Rs. 50) :</label>
+        <input type="text" id="item1" />
+      </div>
+      <div>
+        <label for="">Dal ka Paratha (Rs. 20):</label
+        ><input type="text" id="item2" />
+      </div>
+      <div>
+        <label for="">Moong Dal Cheela (Rs. 20):</label>
+        <input type="text" id="item3" />
+      </div>
+      <div>
+        <label for="">Rawa Upma (Rs. 40):</label>
+        <input type="text" id="item4" />
+      </div>
+    </div>
+    <div class="container">
+      <div class="part3">
+        <h3>Your Bill</h3>
+        <h3>Customer Name - <span id="cName"></span></h3>
+        <h3>Phone number <span id="cPhone"></span></h3>
+        <table>
+            <thead><tr>
+                <th>Menu</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>About</th>
+              </tr></thead>
+         <tbody id="tBody"></tbody>
+        </table>
+      <h4> Total - <span id="total_price"></span></h4>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
